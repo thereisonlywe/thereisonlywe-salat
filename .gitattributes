@@ -1,2 +1,2 @@
-* linguist-vendored
-*.java linguist-vendored=false
+Android/doc/* linguist-documentation
+Desktop/doc/* linguist-documentation
