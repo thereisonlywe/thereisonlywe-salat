@@ -83,7 +83,7 @@ athan = RecitationConstants.getExistingAthanFile(RecitationConstants.ATHAN_DHUHR
 -----
 **Prayer/Salah Recitation:**
 
-1. Create a Prayer object (length, numberOfRakaat, reciter, verse randomization method, recite Iqama before, recite a short prayer after, randomization of wait times in millis, wait times in millis)
+1. Create a Prayer object (length, number of rakaat, reciter, verse randomization method, recite Iqama before, recite a short prayer after, randomization of wait times in millis, wait times in millis)
 ```java
 Prayer prayer = new Prayer(Prayer.VERSE_RANGE_NARROW, 2, QuranReciterList.RIFAI, Prayer.SALAT_RANDOMIZATION_IN_SECTION, true, false, 1500, new int[] { 7000, 2000, 3000, 12000, 5000,
 			9000, 5000, 7000, 5000, 15000, 40000, 3000 });
@@ -97,6 +97,6 @@ PrayerImam imam = new PrayerImam(prayer);
 imam.begin();
 ```
 4. Notes
-Think twice before implementing this on Android; it is very easy to lose audio focus.
+Think twice before using PrayerImam on Android; it is very easy to lose audio focus.
 
 **Check "doc" folder for a complete methods overview.**
