@@ -103,4 +103,14 @@ imam.begin();
 Think twice before using PrayerImam on Android; it is very easy to lose audio focus.
 -----
 
+**Required Permissions for Android:**
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.WAKE_LOCK" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+-----
+
 **Check "doc" folder for a complete methods overview.**
