@@ -100,6 +100,7 @@ PrayerImam imam = new PrayerImam(prayer);
 imam.begin();
 ```
 4. Notes
+
 Think twice before using PrayerImam on Android; it is very easy to lose audio focus.
 -----
 
