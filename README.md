@@ -1,4 +1,5 @@
 ### This is a complete, open-source and easy-to-use Quran recitation and Salah practice API for to be used in Java and Android programming. It has two versions with similar methods; one for desktop (classic Java) and another for Android. It is dependent on [thereisonlywe-quran](https://github.com/thereisonlywe/thereisonlywe-quran), and thus you need to have that project (or its binaries) on your path. Installation is very straight forward; just add .jar files inside "bin" directory as libraries to your project and you are all set. Below are some examples of usage:
+-----
 
 **Verse/Ayah Recitation:**
 
@@ -55,6 +56,7 @@ DhikrImam.propose(imam); //(static) to pass an Imam object with current state to
 DhikrImam imam = new DhikrImam(); //reinitialize state from proposition by calling the empty constructor 
 ```
 -----
+
 **Athan/Iqama Recitation:**
 
 1. Select desired athan file (reciter, athan type)
@@ -81,6 +83,7 @@ imam.terminate(); imam.terminate();  //when called twice with no revive in-betwe
 athan = RecitationConstants.getExistingAthanFile(RecitationConstants.ATHAN_DHUHR_PATH); //use this when you don't know which reciters are available offline
 ```
 -----
+
 **Prayer/Salah Recitation:**
 
 1. Create a Prayer object (length, number of rakaat, reciter, verse randomization method, recite Iqama before, recite a short prayer after, randomization of wait times in millis, wait times in millis)
@@ -98,5 +101,6 @@ imam.begin();
 ```
 4. Notes
 Think twice before using PrayerImam on Android; it is very easy to lose audio focus.
+-----
 
 **Check "doc" folder for a complete methods overview.**
