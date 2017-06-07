@@ -99,9 +99,7 @@ PrayerImam imam = new PrayerImam(prayer);
 ```java
 imam.begin();
 ```
-4. Notes
-
-Think twice before using PrayerImam on Android; it is very easy to lose audio focus.
+4. Think twice before using PrayerImam on Android; it is very easy to lose audio focus.
 -----
 
 **Required Permissions for Android:**
